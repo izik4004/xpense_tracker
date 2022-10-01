@@ -12,7 +12,7 @@ const Product = () => {
             className="section-title"
             data-aos="fade-up"
             data-aos-offset="400"
-            data-aos-delay="500"
+            data-aos-delay="300"
           >
             {title}
           </h2>
@@ -20,11 +20,12 @@ const Product = () => {
             className="lead lg:max-w-[350px]"
             data-aos="fade-up"
             data-aos-offset="400"
-            data-aos-delay="500"
+            data-aos-delay="400"
           >
             {subtitle}
           </p>
         </div>
+        <Cards/>
       </div>
     </section>
   );
