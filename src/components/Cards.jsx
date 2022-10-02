@@ -10,7 +10,10 @@ const Cards = () => {
         <div className='flex flex-col gap-y-[30px] lg:flex-row lg:gap-x-[30px]'>
           {cards.map((card, cardIndex) => {
             return (
-              <div key={cardIndex}>
+              <div key={cardIndex}
+              data-aos='zoom-out'
+              data-aos-offset='300'
+              data-aos-delay='delay'>
               <div 
               onClick={() => setIndex(cardIndex)}
               className={`${index === cardIndex &&
