@@ -1,4 +1,4 @@
-import React from 'react';
+import {useState} from 'react';
 import {pricing} from "../data"
 import {HiCheck, HiOutlineArrowNarrowRight} from "react-icons/hi"
 
